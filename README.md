@@ -1,23 +1,23 @@
-# E-Commerce Testing Project - Manual, API & Automation Testing
+# User & Admin Authentication Testing Project - Manual, API & Automation Testing
 
 **Quality Assurance Testing Project**
-A comprehensive software testing project demonstrating manual testing, API testing, and end-to-end automation using Playwright for a demo e-commerce web application.
+A comprehensive software testing project demonstrating manual UI testing, API validation, and end-to-end automation testing for a user authentication system using Playwright, Postman, and JavaScript.
 
 ## 📖 Overview
 
-This repository contains a Quality Assurance testing project completed on the Demo Web Shop e-commerce platform.
+This repository contains a Quality Assurance testing project focused on validating the authentication functionality of a web application.
 
-The project focuses on validating critical user workflows through manual testing, API testing, and automated browser testing. Key functionality such as product browsing, shopping cart management, user registration, and checkout was thoroughly tested to ensure the application performs reliably and provides a consistent user experience.
+The project tests critical authentication workflows, including user login, invalid login handling, and logout functionality through manual testing, API validation, and browser automation. The primary goal was to ensure the authentication system behaved securely, reliably, and consistently while providing a seamless user experience.
 
-Throughout the project, I designed detailed manual test cases, validated REST APIs using Postman, and developed Playwright automation scripts to improve regression testing efficiency while applying software testing best practices.
+Throughout the project, I created structured manual test cases, validated backend authentication requests using Postman and browser developer tools, and developed Playwright automation scripts to streamline regression testing and improve overall testing efficiency.
 
 ## ✨ Features
 
-✅ Manual testing for core e-commerce workflows
+✅ Manual testing of authentication workflows
 
-✅ Shopping cart functionality validation
+✅ Login, invalid login, and logout validation
 
-✅ User registration and checkout testing
+✅ Browser Developer Tools inspection
 
 ✅ REST API testing using Postman
 
@@ -27,7 +27,7 @@ Throughout the project, I designed detailed manual test cases, validated REST AP
 
 ✅ Functional and regression testing
 
-✅ Cross-browser testing
+✅ HTML test reporting
 
 ✅ Structured test documentation
 
@@ -37,12 +37,14 @@ Throughout the project, I designed detailed manual test cases, validated REST AP
 
 * Functional Testing
 * Regression Testing
+* Browser Developer Tools
 * Test Case Design
 
 ### API Testing
 
 * Postman
 * REST APIs
+* HTTP Requests
 * JSON
 
 ### Automation Testing
@@ -61,61 +63,62 @@ Throughout the project, I designed detailed manual test cases, validated REST AP
 
 ### Manual Testing
 
-Manual test cases were created to validate key user journeys, including:
+Manual test cases were created to validate key authentication workflows, including:
 
-* Adding products to the shopping cart
-* Viewing shopping cart contents
-* Removing products from the cart
-* User registration
-* Registered user checkout
+* Successful user login
+* Invalid username validation
+* Invalid password validation
+* Empty input validation
+* User logout
 
 Each test case includes execution steps, expected results, actual results, pass/fail status, and supporting screenshots.
 
 ### API Testing
 
-REST APIs were tested using Postman to verify:
+Authentication requests were validated using Postman by verifying:
 
-* GET requests for retrieving product information
-* POST requests for shopping cart operations
+* Login request behaviour
+* HTTP request methods
 * Response status codes
-* JSON response validation
-* Request and response accuracy
-* API reliability
+* Response headers
+* HTML response validation
+* Authentication success and failure scenarios
 
-Testing ensured backend services behaved correctly under expected request scenarios.
+Testing confirmed that the application correctly handled authentication requests and responded appropriately to both valid and invalid credentials.
 
 ### Automation Testing
 
-Playwright automation scripts were developed to automate key regression scenarios, including:
+Playwright automation scripts were developed to automate critical authentication workflows, including:
 
-* Adding products to the shopping cart
-* Validating cart contents
-* Removing products from the shopping cart
+* Successful login
+* Invalid login validation
+* Logout functionality
 
-The automation suite provides repeatable validation of core application functionality while reducing repetitive manual testing.
+The automation suite provides repeatable regression testing and validates that authentication workflows continue to function correctly across future application updates.
 
 ## 💡 What I Learned
 
-This project strengthened my understanding of software testing by giving me practical experience in:
+This project strengthened my understanding of Quality Assurance by giving me practical experience in:
 
 * Designing structured manual test cases
-* Functional and regression testing
-* REST API testing with Postman
-* API response validation
-* Building end-to-end automation with Playwright
+* Testing authentication workflows
+* Using Browser Developer Tools for UI inspection
+* Validating authentication requests with Postman
+* Analysing HTTP requests, responses, and status codes
+* Building end-to-end browser automation with Playwright
 * Writing maintainable JavaScript automation scripts
 * Debugging automated tests
 * Organising QA documentation
-* Using Git and GitHub throughout the testing lifecycle
+* Using Git and GitHub for version control throughout the testing lifecycle
 
 ## 🎥 Demonstration
 
 A demonstration video showcasing the manual testing process, API validation, and Playwright automation is included in this repository.
 
-The demonstration highlights key workflows including shopping cart operations, user registration, checkout validation, API testing using Postman, and automated browser testing using Playwright.
+The demonstration highlights authentication workflows including successful login, invalid login scenarios, logout functionality, API validation using Postman, and automated browser testing using Playwright.
 
 ## 🌱 Reflection
 
-This project provided valuable hands-on experience across multiple areas of software testing, including manual testing, API validation, and browser automation.
+This project provided valuable hands-on experience in testing authentication systems through manual testing, API validation, and browser automation.
 
-Beyond executing test cases, it reinforced the importance of creating reliable test scenarios, validating backend services, maintaining clear documentation, and automating regression testing. The experience strengthened both my technical skills and my confidence in applying Quality Assurance best practices throughout the software testing lifecycle.
+Beyond validating application functionality, it reinforced the importance of secure authentication testing, accurate API verification, maintaining structured test documentation, and automating repetitive regression tests. The experience strengthened both my technical testing skills and my confidence in applying Quality Assurance best practices across modern web applications.
