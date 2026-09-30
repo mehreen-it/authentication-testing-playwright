@@ -3,7 +3,7 @@
 **Quality Assurance Testing Project**
 A comprehensive software testing project demonstrating manual UI testing, API validation, and end-to-end automation testing for a user authentication system using Playwright, Postman, and JavaScript.
 
-## 📖 Overview
+## Overview
 
 This repository contains a Quality Assurance testing project focused on validating the authentication functionality of a web application.
 
@@ -11,27 +11,19 @@ The project tests critical authentication workflows, including user login, inval
 
 Throughout the project, I created structured manual test cases, validated backend authentication requests using Postman and browser developer tools, and developed Playwright automation scripts to streamline regression testing and improve overall testing efficiency.
 
-## ✨ Features
+## Features
 
-✅ Manual testing of authentication workflows
-
-✅ Login, invalid login, and logout validation
-
-✅ Browser Developer Tools inspection
-
-✅ REST API testing using Postman
-
-✅ API request and response validation
-
-✅ End-to-end browser automation using Playwright
-
-✅ Functional and regression testing
-
-✅ HTML test reporting
-
-✅ Structured test documentation
-
-## 🛠️ Technologies
+* Manual testing of authentication workflows
+* Login, invalid login, and logout validation
+* Browser Developer Tools inspection
+* REST API testing using Postman
+* API request and response validation
+* End-to-end browser automation using Playwright
+* Functional and regression testing
+* HTML test reporting
+* Structured test documentation
+  
+## Technologies
 
 ### Manual Testing
 
@@ -59,7 +51,7 @@ Throughout the project, I created structured manual test cases, validated backen
 * Git
 * GitHub
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing
 
@@ -96,7 +88,7 @@ Playwright automation scripts were developed to automate critical authentication
 
 The automation suite provides repeatable regression testing and validates that authentication workflows continue to function correctly across future application updates.
 
-## 💡 What I Learned
+## What I Learned
 
 This project strengthened my understanding of Quality Assurance by giving me practical experience in:
 
@@ -111,13 +103,13 @@ This project strengthened my understanding of Quality Assurance by giving me pra
 * Organising QA documentation
 * Using Git and GitHub for version control throughout the testing lifecycle
 
-## 🎥 Demonstration
+## Demonstration
 
 A demonstration video showcasing the manual testing process, API validation, and Playwright automation is included in this repository.
 
 The demonstration highlights authentication workflows including successful login, invalid login scenarios, logout functionality, API validation using Postman, and automated browser testing using Playwright.
 
-## 🌱 Reflection
+## Reflection
 
 This project provided valuable hands-on experience in testing authentication systems through manual testing, API validation, and browser automation.
 
